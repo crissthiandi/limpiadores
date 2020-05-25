@@ -28,3 +28,4 @@ limpiar_todo<-function(){
     dev.off(dev.list()["RStudioGD"])
   }
 }
+
