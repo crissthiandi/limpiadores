@@ -5,7 +5,8 @@ Title: Package para limpieza de Work's area
 Version: 0.1.0
 Author: Cristhian Diaz <cristhiandiazchable@gmail.com>
 Maintainer: Cristhian Diaz <cristhiandiazchable@gmail.com>
-Description: Este paquete permite la limpieza de la consola, historial, 	environment e historial de plots
+Description: Este paquete permite la limpieza de la consola, historial,
+     environment e historial de plots
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
