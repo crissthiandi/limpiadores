@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582819851403.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1646210567",
+    "id" : "8B304716",
+    "lastKnownWriteTime" : 1582841831,
+    "last_content_update" : 1582841831034,
+    "path" : "~/R_libros_and_code/creando_package/limpiadores/man/limpiar_environment.Rd",
+    "project_path" : "man/limpiar_environment.Rd",
+    "properties" : {
+        "cursorPosition" : "3,28",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

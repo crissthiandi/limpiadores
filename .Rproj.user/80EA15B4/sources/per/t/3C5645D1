@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582819852369.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3018717314",
+    "id" : "3C5645D1",
+    "lastKnownWriteTime" : 1582841856,
+    "last_content_update" : 1582841856949,
+    "path" : "~/R_libros_and_code/creando_package/limpiadores/man/limpiar_plots.Rd",
+    "project_path" : "man/limpiar_plots.Rd",
+    "properties" : {
+        "cursorPosition" : "3,36",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
