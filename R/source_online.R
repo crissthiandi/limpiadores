@@ -130,7 +130,7 @@ assign("clean_marcas", clean_marcas, envir=.pkgglobalenv_to_cpp)
 assign("Depurandoando_texto", Depurandoando_texto,
        envir=.pkgglobalenv_to_cpp)
 
-cleaner_env(){
+cleaner_env <- function(){
   try({
     rm(list = ls()[which(ls() %in% c("clean_marcas","time_to_time","Depurandoando_texto","read_Dir"))])
   })
