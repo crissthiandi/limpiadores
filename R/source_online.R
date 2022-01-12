@@ -121,3 +121,19 @@ clean_marcas <- function(datos){
   return(datos)
 }
 
+
+# .pkgglobalenv_to_cpp <- new.env(parent=emptyenv())
+.pkgglobalenv_to_cpp <- new.env(parent = globalenv())
+
+assign("time_to_time", time_to_time, envir=.pkgglobalenv_to_cpp)
+assign("clean_marcas", clean_marcas, envir=.pkgglobalenv_to_cpp)
+assign("Depurandoando_texto", Depurandoando_texto,
+       envir=.pkgglobalenv_to_cpp)
+
+cleaner_env(){
+  try({
+    rm(list = ls()[which(ls() %in% c("clean_marcas","time_to_time","Depurandoando_texto","read_Dir"))])
+  })
+}
+
+cleaner_env()
