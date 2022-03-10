@@ -133,7 +133,7 @@ assign("Depurandoando_texto", Depurandoando_texto,
 cleaner_env <- function(){
   cat(ls(.GlobalEnv))
   try({
-    rm(list = ls(.GlobalEnv)[which(ls(.GlobalEnv) %in% c("clean_marcas","time_to_time","Depurandoando_texto","read_Dir"))],
+    rm(list = ls(.GlobalEnv)[which(ls(.GlobalEnv) %in% c("clean_marcas","time_to_time","Depurandoando_texto","read_Dir","as_vector_file"))],
        envir = .GlobalEnv)
   })
 }
